@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|c:\\users\\mattakvshi\\source\\repos\\winformproducts\\winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|c:\\users\\mattakvshi\\source\\repos\\winformproducts\\winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|c:\\users\\mattakvshi\\source\\repos\\winformproducts\\winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|c:\\users\\mattakvshi\\source\\repos\\winformproducts\\winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\winformproducts\\productsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\productsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|c:\\users\\mattakvshi\\source\\repos\\winformproducts\\winformproducts\\clientsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\clientsuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ClientsUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ClientsUC.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ClientsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\ClientsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:08:45.497Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ProductsUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ProductsUC.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ProductsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\ProductsUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:33:49.257Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ContractProductUC.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:39:57.717Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\MainForm.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:31:25.71Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\MainForm.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeToolTip": "WinFormProducts\\MainForm.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAYwGcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:30:20.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContractProductUC.cs",
+              "DocumentMoniker": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ContractProductUC.cs",
+              "ToolTip": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
+              "RelativeToolTip": "WinFormProducts\\ContractProductUC.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAIA6wEAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:13:04.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
