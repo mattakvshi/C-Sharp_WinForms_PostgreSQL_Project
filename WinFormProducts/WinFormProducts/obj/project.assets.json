@@ -196,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\WinFormProducts.csproj",
+      "projectUniqueName": "D:\\КУБИК\\3 курс 6 семак\\Разработка в интегрированных средах\\Итоговый проект\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\WinFormProducts.csproj",
       "projectName": "WinFormProducts",
-      "projectPath": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\WinFormProducts.csproj",
+      "projectPath": "D:\\КУБИК\\3 курс 6 семак\\Разработка в интегрированных средах\\Итоговый проект\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\WinFormProducts.csproj",
       "packagesPath": "C:\\Users\\mattakvshi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattakvshi\\source\\repos\\WinFormProducts\\WinFormProducts\\obj\\",
+      "outputPath": "D:\\КУБИК\\3 курс 6 семак\\Разработка в интегрированных средах\\Итоговый проект\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mattakvshi\\AppData\\Roaming\\NuGet\\NuGet.Config",

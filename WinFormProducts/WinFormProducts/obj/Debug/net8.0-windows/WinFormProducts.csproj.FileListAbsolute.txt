@@ -25,3 +25,31 @@ C:\Users\mattakvshi\source\repos\WinFormProducts\WinFormProducts\obj\Debug\net8.
 C:\Users\mattakvshi\source\repos\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ProductForm.resources
 C:\Users\mattakvshi\source\repos\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ClientForm.resources
 C:\Users\mattakvshi\source\repos\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ContractProductUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinFormProducts.exe
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinFormProducts.deps.json
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinFormProducts.runtimeconfig.json
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinFormProducts.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinFormProducts.pdb
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\Npgsql.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.csproj.AssemblyReference.cache
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ClientForm.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ClientsUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ContractProductUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.MainForm.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ProductForm.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ProductsUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.Properties.Resources.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.csproj.GenerateResource.cache
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.GeneratedMSBuildEditorConfig.editorconfig
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.AssemblyInfoInputs.cache
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.AssemblyInfo.cs
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.csproj.CoreCompileInputs.cache
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.sourcelink.json
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormP.7F1CC1B4.Up2Date
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\refint\WinFormProducts.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.pdb
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.genruntimeconfig.cache
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\ref\WinFormProducts.dll
