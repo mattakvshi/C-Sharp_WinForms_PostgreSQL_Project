@@ -93,6 +93,46 @@ EXECUTE FUNCTION update_total_amount();
 
 
 
+-- Trigger: update_payment_status_trigger
+
+-- DROP TRIGGER IF EXISTS update_payment_status_trigger ON public.contracts;
+
+CREATE OR REPLACE TRIGGER update_payment_status_trigger
+    BEFORE INSERT OR UPDATE 
+    ON public.contracts
+    FOR EACH ROW
+    EXECUTE FUNCTION public.update_payment_status();
+
+
+-- FUNCTION: public.update_payment_status()
+
+-- DROP FUNCTION IF EXISTS public.update_payment_status();
+
+CREATE OR REPLACE FUNCTION public.update_payment_status()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    IF NEW.advance_payment >= NEW.total_amount THEN
+        NEW.payment_status = 'оплачено';
+    ELSIF NEW.advance_payment < 0.3 * NEW.total_amount THEN
+        NEW.payment_status = 'не оплачено';
+    ELSE
+        NEW.payment_status = 'предоплата';
+    END IF;
+    
+    RETURN NEW;
+END;
+$BODY$;
+
+ALTER FUNCTION public.update_payment_status()
+    OWNER TO postgres;
+
+
+
+
 
 
 -- Вставки в таблицу Clients

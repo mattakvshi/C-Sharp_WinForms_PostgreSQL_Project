@@ -68,7 +68,7 @@
             // 
             // textBoxPhone
             // 
-            textBoxPhone.BackColor = Color.LightGray;
+            textBoxPhone.BackColor = Color.Gainsboro;
             textBoxPhone.BorderStyle = BorderStyle.FixedSingle;
             textBoxPhone.Font = new Font("Montserrat", 12F);
             textBoxPhone.Location = new Point(12, 117);
@@ -78,7 +78,7 @@
             // 
             // textBoxName
             // 
-            textBoxName.BackColor = Color.LightGray;
+            textBoxName.BackColor = Color.Gainsboro;
             textBoxName.BorderStyle = BorderStyle.FixedSingle;
             textBoxName.Font = new Font("Montserrat", 12F);
             textBoxName.Location = new Point(12, 34);
@@ -106,11 +106,11 @@
             labelName.TabIndex = 18;
             labelName.Text = "Имя";
             // 
-            // СlientForm
+            // ClientForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveBorder;
+            BackColor = Color.LightGray;
             ClientSize = new Size(294, 266);
             Controls.Add(buttonCancel);
             Controls.Add(buttonConfirm);
@@ -118,7 +118,7 @@
             Controls.Add(textBoxName);
             Controls.Add(labelPhone);
             Controls.Add(labelName);
-            Name = "СlientForm";
+            Name = "ClientForm";
             Text = "СlientForm";
             ResumeLayout(false);
             PerformLayout();

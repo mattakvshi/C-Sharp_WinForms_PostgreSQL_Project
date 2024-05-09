@@ -38,7 +38,7 @@
             // 
             // textBoxPrice
             // 
-            textBoxPrice.BackColor = Color.LightGray;
+            textBoxPrice.BackColor = Color.Gainsboro;
             textBoxPrice.BorderStyle = BorderStyle.FixedSingle;
             textBoxPrice.Font = new Font("Montserrat", 12F);
             textBoxPrice.Location = new Point(12, 140);
@@ -49,7 +49,7 @@
             // 
             // textBoxName
             // 
-            textBoxName.BackColor = Color.LightGray;
+            textBoxName.BackColor = Color.Gainsboro;
             textBoxName.BorderStyle = BorderStyle.FixedSingle;
             textBoxName.Font = new Font("Montserrat", 12F);
             textBoxName.Location = new Point(12, 55);
@@ -111,7 +111,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveBorder;
+            BackColor = Color.LightGray;
             ClientSize = new Size(306, 296);
             Controls.Add(buttonCancel);
             Controls.Add(buttonConfirm);

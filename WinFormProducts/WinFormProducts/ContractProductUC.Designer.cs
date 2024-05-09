@@ -64,6 +64,7 @@
             buttonAddContract.TabIndex = 17;
             buttonAddContract.Text = "Добавить";
             buttonAddContract.UseVisualStyleBackColor = false;
+            buttonAddContract.Click += buttonAddContract_Click;
             // 
             // buttonDeleteContract
             // 
@@ -78,6 +79,7 @@
             buttonDeleteContract.TabIndex = 16;
             buttonDeleteContract.Text = "Удалить";
             buttonDeleteContract.UseVisualStyleBackColor = false;
+            buttonDeleteContract.Click += buttonDeleteContract_Click;
             // 
             // buttonChangeContract
             // 
@@ -92,6 +94,7 @@
             buttonChangeContract.TabIndex = 15;
             buttonChangeContract.Text = "Изменить";
             buttonChangeContract.UseVisualStyleBackColor = false;
+            buttonChangeContract.Click += buttonChangeContract_Click;
             // 
             // label1
             // 

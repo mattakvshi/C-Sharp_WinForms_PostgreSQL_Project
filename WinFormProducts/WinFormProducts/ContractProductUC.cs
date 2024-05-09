@@ -107,5 +107,99 @@ namespace WinFormProducts
                 column.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             }
         }
+
+        private void buttonAddContract_Click(object sender, EventArgs e)
+        {
+            /*
+             Функция, которая получает нужные данные и вызывает форму для вставки данных
+             */
+
+            List<String> clientsNames = new List<String>();
+            string sql = @"
+            SELECT client_name 
+            FROM Clients";
+            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+            NpgsqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string clientName = reader.GetString(0);
+                clientsNames.Add(clientName);
+            }
+            reader.Close();
+
+            ContranctForm contractForm = new ContranctForm(conn, clientsNames);
+            contractForm.ShowDialog();
+            UpdateContract();
+        }
+
+        private void buttonChangeContract_Click(object sender, EventArgs e)
+        {
+            /*
+             Функция, которая получает нужные данные и вызывает форму для редактирования данных
+             */
+
+            int contractId = (int)dataGridViewContract.CurrentRow.Cells["contract_id"].Value;
+            int clientId = (int)dataGridViewContract.CurrentRow.Cells["client_id"].Value;
+            DateTime signedDate;
+            try
+            {
+                signedDate = (DateTime)dataGridViewContract.CurrentRow.Cells["date_signed"].Value;
+            }
+            catch (Exception ex)
+            {
+                signedDate = DateTime.Today;
+            }
+            decimal advancedPayment = (decimal)dataGridViewContract.CurrentRow.Cells["advance_payment"].Value;
+            string shipmentStatus = (string)dataGridViewContract.CurrentRow.Cells["shipment_status"].Value;
+
+
+            string sql = @"
+            SELECT client_name 
+            FROM Clients 
+            WHERE client_id = :client_id";
+            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+            command.Parameters.AddWithValue("client_id", clientId);
+            object clientNameObj = command.ExecuteScalar();
+            string clientName = Convert.ToString(clientNameObj);
+
+
+            List<String> clientsNames = new List<String>();
+            sql = @"
+            SELECT client_name 
+            FROM Clients";
+            command = new NpgsqlCommand(sql, conn);
+            NpgsqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string tmpClientName = reader.GetString(0);
+                clientsNames.Add(tmpClientName);
+            }
+            reader.Close();
+
+
+            ContranctForm contractForm = new ContranctForm(conn, contractId, signedDate, clientName, clientsNames, advancedPayment, shipmentStatus);
+            contractForm.ShowDialog();
+            UpdateContract();
+        }
+
+        private void buttonDeleteContract_Click(object sender, EventArgs e)
+        {
+            /*
+             Функция, которая удаляет данные без вызова формы
+             */
+
+            int contractId = (int)dataGridViewContract.CurrentRow.Cells["contract_id"].Value;
+            DialogResult result = MessageBox.Show("Вы действительно хотите удалить запись с номером " + contractId + "?", "Подтверждение удаления", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                string sql = @"
+                DELETE FROM Contracts 
+                WHERE contract_id = :contract_id";
+                NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+                command.Parameters.AddWithValue("contract_id", contractId);
+                command.ExecuteNonQuery();
+                UpdateContract();
+            }
+        }
     }
 }
