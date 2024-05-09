@@ -171,10 +171,32 @@ INSERT INTO Contract_Products (contract_id, product_id, quantity) VALUES (3, 3, 
 INSERT INTO Contract_Products (contract_id, product_id, quantity) VALUES (4, 4, 1);
 INSERT INTO Contract_Products (contract_id, product_id, quantity) VALUES (5, 5, 2);
 
-
-
 SELECT * FROM Clients;
 SELECT * FROM Products;
 SELECT * FROM Contracts;
 SELECT * FROM Contract_Products;
+
+
+SELECT 
+    c.contract_id,
+    cl.client_name,
+    c.date_signed,
+    string_agg(p.product_name || ' - ' || cp.quantity::text, ', ') AS product_details,
+    c.total_amount,
+    c.prepayment,
+    c.advance_payment,
+    c.payment_status,
+    c.shipment_status
+FROM 
+    Contracts c
+JOIN 
+    Clients cl ON c.client_id = cl.client_id
+JOIN 
+    Contract_Products cp ON c.contract_id = cp.contract_id
+JOIN 
+    Products p ON cp.product_id = p.product_id
+GROUP BY 
+    c.contract_id, cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.payment_status, c.shipment_status
+ORDER BY 
+    c.contract_id;
 

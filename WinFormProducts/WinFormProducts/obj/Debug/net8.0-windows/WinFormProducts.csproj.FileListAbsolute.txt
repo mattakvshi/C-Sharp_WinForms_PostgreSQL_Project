@@ -54,3 +54,6 @@ D:\КУБИК\3 курс 6 семак\Разработка в интегриро
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.genruntimeconfig.cache
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\ref\WinFormProducts.dll
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ContranctForm.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ContractProducts.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.csproj.ResolveComReference.cache

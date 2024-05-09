@@ -167,6 +167,7 @@
             buttonAddCP.TabIndex = 22;
             buttonAddCP.Text = "Добавить";
             buttonAddCP.UseVisualStyleBackColor = false;
+            buttonAddCP.Click += buttonAddCP_Click;
             // 
             // buttonDeleteCP
             // 
@@ -181,6 +182,7 @@
             buttonDeleteCP.TabIndex = 21;
             buttonDeleteCP.Text = "Удалить";
             buttonDeleteCP.UseVisualStyleBackColor = false;
+            buttonDeleteCP.Click += buttonDeleteCP_Click;
             // 
             // buttonChangeCP
             // 
@@ -195,6 +197,7 @@
             buttonChangeCP.TabIndex = 20;
             buttonChangeCP.Text = "Изменить";
             buttonChangeCP.UseVisualStyleBackColor = false;
+            buttonChangeCP.Click += buttonChangeCP_Click;
             // 
             // buttonSelect
             // 
@@ -209,6 +212,7 @@
             buttonSelect.TabIndex = 23;
             buttonSelect.Text = "Выбрать";
             buttonSelect.UseVisualStyleBackColor = false;
+            buttonSelect.Click += buttonSelect_Click;
             // 
             // buttonEXL
             // 
@@ -223,6 +227,7 @@
             buttonEXL.TabIndex = 24;
             buttonEXL.Text = "Экспорт в Excel";
             buttonEXL.UseVisualStyleBackColor = false;
+            buttonEXL.Click += buttonEXL_Click;
             // 
             // buttonUnSelect
             // 
@@ -237,6 +242,7 @@
             buttonUnSelect.TabIndex = 25;
             buttonUnSelect.Text = "Показать все";
             buttonUnSelect.UseVisualStyleBackColor = false;
+            buttonUnSelect.Click += buttonUnSelect_Click;
             // 
             // dataGridViewContractProduct
             // 

@@ -58,7 +58,6 @@ namespace WinFormProducts
             this.advancedPayment = advancedPayment;
             this.textBoxAdvancedPayment.Text = advancedPayment.ToString();
             this.shipmentStatus = shipmentStatus;
-            this.comboBoxSipmentStatus.SelectedItem = shipmentStatus;
         }
 
 
@@ -70,6 +69,7 @@ namespace WinFormProducts
 
             this.comboBoxClientName.SelectedItem = clientName;
             this.comboBoxSipmentStatus.DataSource = shipmentsStatuses;
+            this.comboBoxSipmentStatus.SelectedItem = shipmentStatus;
         }
 
         private void buttonConfirm_Click(object sender, EventArgs e)
