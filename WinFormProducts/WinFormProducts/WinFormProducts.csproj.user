@@ -10,6 +10,9 @@
     <Compile Update="ContranctForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="GraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -24,6 +27,9 @@
     </Compile>
     <Compile Update="ClientForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportDebtorsUC.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="ReportingUC.cs">
       <SubType>UserControl</SubType>

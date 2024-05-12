@@ -10,6 +10,7 @@ namespace WinFormProducts
         public ProductsUC productsUC;
         public ContractProductUC contractProductUC;
         public ReportingUC reportingUC;
+        public ReportDebtorsUC reportDebtorsUC;
 
         //объект-соединение с бд
         public NpgsqlConnection conn;
@@ -95,6 +96,11 @@ namespace WinFormProducts
             this.Controls.Add(reportingUC);
             CenterUserControl(reportingUC);
             reportingUC.Visible = false;
+
+            reportDebtorsUC = new ReportDebtorsUC(conn);
+            this.Controls.Add(reportDebtorsUC);
+            CenterUserControl(reportDebtorsUC);
+            reportDebtorsUC.Visible = false;
         }
 
         private void UsersToolStripMenuItem_Click(object sender, EventArgs e)
@@ -107,6 +113,7 @@ namespace WinFormProducts
             productsUC.Visible = false;
             contractProductUC.Visible = false;
             reportingUC.Visible = false;
+            reportDebtorsUC.Visible = false;
         }
 
         private void ProductsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -119,18 +126,20 @@ namespace WinFormProducts
             productsUC.Visible = true;
             contractProductUC.Visible = false;
             reportingUC.Visible = false;
+            reportDebtorsUC.Visible = false;
         }
 
         private void ContractToolStripMenuItem_Click(object sender, EventArgs e)
         {
             /*
-              Метод для корректного отображения панели "Товары"
+              Метод для корректного отображения панели "Договоров"
           */
 
             clientsUC.Visible = false;
             productsUC.Visible = false;
             contractProductUC.Visible = true;
             reportingUC.Visible = false;
+            reportDebtorsUC.Visible = false;
         }
 
         private void ReportToolStripMenuItem_Click(object sender, EventArgs e)
@@ -163,6 +172,20 @@ namespace WinFormProducts
             productsUC.Visible = false;
             contractProductUC.Visible = false;
             reportingUC.Visible = true;
+            reportDebtorsUC.Visible = false;
+        }
+
+        private void отчётПоДнямToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*
+            Метод для корректного отображения панели "Отчёта по дням"
+            */
+
+            clientsUC.Visible = false;
+            productsUC.Visible = false;
+            contractProductUC.Visible = false;
+            reportingUC.Visible = false;
+            reportDebtorsUC.Visible = true;
         }
     }
 }

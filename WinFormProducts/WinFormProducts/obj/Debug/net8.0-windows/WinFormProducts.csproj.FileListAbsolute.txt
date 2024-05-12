@@ -58,3 +58,7 @@ D:\КУБИК\3 курс 6 семак\Разработка в интегриро
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.csproj.ResolveComReference.cache
 D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ReportingUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.ReportDebtorsUC.resources
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+D:\КУБИК\3 курс 6 семак\Разработка в интегрированных средах\Итоговый проект\MyC#IndividualWork\WinFormProducts\WinFormProducts\obj\Debug\net8.0-windows\WinFormProducts.GraphForm.resources

@@ -33,6 +33,7 @@
             ProductsToolStripMenuItem = new ToolStripMenuItem();
             ContractToolStripMenuItem = new ToolStripMenuItem();
             ReportToolStripMenuItem = new ToolStripMenuItem();
+            отчётПоДнямToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -40,7 +41,7 @@
             // 
             menuStrip1.BackColor = SystemColors.ActiveBorder;
             menuStrip1.Dock = DockStyle.Left;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { UsersToolStripMenuItem, ProductsToolStripMenuItem, ContractToolStripMenuItem, ReportToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { UsersToolStripMenuItem, ProductsToolStripMenuItem, ContractToolStripMenuItem, ReportToolStripMenuItem, отчётПоДнямToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(185, 661);
@@ -76,8 +77,16 @@
             ReportToolStripMenuItem.Font = new Font("Montserrat", 10F);
             ReportToolStripMenuItem.Name = "ReportToolStripMenuItem";
             ReportToolStripMenuItem.Size = new Size(172, 24);
-            ReportToolStripMenuItem.Text = "Отчёт";
+            ReportToolStripMenuItem.Text = "Отчёт по товарам";
             ReportToolStripMenuItem.Click += ReportToolStripMenuItem_Click;
+            // 
+            // отчётПоДнямToolStripMenuItem
+            // 
+            отчётПоДнямToolStripMenuItem.Font = new Font("Montserrat", 10F);
+            отчётПоДнямToolStripMenuItem.Name = "отчётПоДнямToolStripMenuItem";
+            отчётПоДнямToolStripMenuItem.Size = new Size(172, 24);
+            отчётПоДнямToolStripMenuItem.Text = "Отчёт по дням";
+            отчётПоДнямToolStripMenuItem.Click += отчётПоДнямToolStripMenuItem_Click;
             // 
             // MainForm
             // 
@@ -102,5 +111,6 @@
         private ToolStripMenuItem ProductsToolStripMenuItem;
         private ToolStripMenuItem ContractToolStripMenuItem;
         private ToolStripMenuItem ReportToolStripMenuItem;
+        private ToolStripMenuItem отчётПоДнямToolStripMenuItem;
     }
 }

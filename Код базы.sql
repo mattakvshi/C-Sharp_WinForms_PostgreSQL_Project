@@ -225,3 +225,16 @@ ORDER BY
     cl.client_name;
 
 
+SELECT 
+    DATE(c.date_signed) as date_signed,
+    SUM(c.total_amount) as total_unpaid_amount
+FROM 
+    Contracts c
+WHERE 
+    c.date_signed BETWEEN '2024-04-01' AND '2024-05-12' 
+    AND c.payment_status != 'оплачено' 
+    AND c.shipment_status = 'отгружено'
+GROUP BY 
+    date_signed 
+ORDER BY 
+    date_signed

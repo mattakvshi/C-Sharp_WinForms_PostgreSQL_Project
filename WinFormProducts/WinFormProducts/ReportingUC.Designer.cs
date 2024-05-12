@@ -108,9 +108,9 @@
             richTextBoxReportClient.BorderStyle = BorderStyle.None;
             richTextBoxReportClient.Font = new Font("Montserrat", 12F);
             richTextBoxReportClient.ForeColor = SystemColors.WindowFrame;
-            richTextBoxReportClient.Location = new Point(517, 15);
+            richTextBoxReportClient.Location = new Point(489, 15);
             richTextBoxReportClient.Name = "richTextBoxReportClient";
-            richTextBoxReportClient.Size = new Size(643, 615);
+            richTextBoxReportClient.Size = new Size(687, 615);
             richTextBoxReportClient.TabIndex = 34;
             richTextBoxReportClient.Text = "";
             // 

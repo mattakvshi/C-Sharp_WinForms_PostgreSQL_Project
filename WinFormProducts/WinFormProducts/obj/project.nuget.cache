@@ -1,12 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "66uSQfzc0w8LuHMUB6ts3cw8D+rKsNa8Td1l1tLcdigvY4y6FLVnIV8GP7Iv96X/ZN7oZynj9IsUll69kHA2Pg==",
+  "dgSpecHash": "IFtnIVC0IehVnsgLZy/57uMNd0ucaY8MInfIJequF8ijfGMi/4tUlTB/boARuN87XNdEtWEYS79LKfwlIRhkNA==",
   "success": true,
   "projectFilePath": "D:\\КУБИК\\3 курс 6 семак\\Разработка в интегрированных средах\\Итоговый проект\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\WinFormProducts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mattakvshi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mattakvshi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\mattakvshi\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+    "C:\\Users\\mattakvshi\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\mattakvshi\\.nuget\\packages\\winforms.datavisualization\\1.9.2\\winforms.datavisualization.1.9.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Npgsql\" 8.0.2 есть известная уязвимость https://github.com/advisories/GHSA-x9vc-6hfv-hg8c (уровень серьезности: высокий уровень)",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

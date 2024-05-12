@@ -37,8 +37,8 @@ namespace WinFormProducts
         private void buttonMakeUp_Click(object sender, EventArgs e)
         {
             /*
-     Функция, которая создаёт отчёт для выбранных клиентов по товарам, положенным к отгрузке, но не отгруженным
-     */
+             Функция, которая создаёт отчёт для выбранных клиентов по товарам, положенным к отгрузке, но не отгруженным
+             */
 
             DateTime reportFrom = dateTimePickerTextReportFrom.Value;
             DateTime reportTo = dateTimePickerTextReportTo.Value;
@@ -54,33 +54,35 @@ namespace WinFormProducts
 
             foreach (string clientName in clientsNamesChecked)
             {
+                bool dataFound = false;
+
                 // Запрос к базе данных для получения информации о неотгруженных товарах для каждого клиента
                 string sql = @"
-                SELECT 
-                    cl.client_name,
-                    c.date_signed,
-                    string_agg(p.product_name || ' - Количество: ' || cp.quantity::text || ' - Сумма за количество: ' || cp.total_price, ', ') AS product_details,
-                    c.total_amount,
-                    c.prepayment,
-                    c.advance_payment,
-                    c.payment_status
-                FROM 
-                    Contracts c
-                JOIN 
-                    Clients cl ON c.client_id = cl.client_id
-                JOIN 
-                    Contract_Products cp ON c.contract_id = cp.contract_id
-                JOIN 
-                    Products p ON cp.product_id = p.product_id
-                WHERE 
-                    c.date_signed BETWEEN :reportFrom AND :reportTo 
-                    AND c.payment_status != 'не оплачено' 
-                    AND c.shipment_status != 'отгружено'
-                    AND cl.client_name = :clientName
-                GROUP BY 
-                    cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.payment_status
-                ORDER BY 
-                    cl.client_name";
+                    SELECT 
+                        cl.client_name,
+                        c.date_signed,
+                        string_agg(p.product_name || ' - Количество: ' || cp.quantity::text || ' - Сумма за количество: ' || cp.total_price, ', ') AS product_details,
+                        c.total_amount,
+                        c.prepayment,
+                        c.advance_payment,
+                        c.payment_status
+                    FROM 
+                        Contracts c
+                    JOIN 
+                        Clients cl ON c.client_id = cl.client_id
+                    JOIN 
+                        Contract_Products cp ON c.contract_id = cp.contract_id
+                    JOIN 
+                        Products p ON cp.product_id = p.product_id
+                    WHERE 
+                        c.date_signed BETWEEN :reportFrom AND :reportTo 
+                        AND c.payment_status != 'не оплачено' 
+                        AND c.shipment_status != 'отгружено'
+                        AND cl.client_name = :clientName
+                    GROUP BY 
+                        cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.payment_status
+                    ORDER BY 
+                        cl.client_name";
 
                 NpgsqlCommand command = new NpgsqlCommand(sql, conn);
                 command.Parameters.AddWithValue("reportFrom", reportFrom);
@@ -90,6 +92,8 @@ namespace WinFormProducts
 
                 while (reader.Read())
                 {
+                    dataFound = true;
+
                     string client_name = reader.GetString(0);
                     DateTime date_signed = reader.GetDateTime(1);
                     string product_details = reader.GetString(2);
@@ -107,17 +111,32 @@ namespace WinFormProducts
                     result += "Статус платежа: " + payment_status + "\n";
                     result += "----------\n";
                 }
+                if (!dataFound)
+                {
+                    result += "Клиент: " + clientName + "\n";
+                    result += "Нет данных о положенных к отгрузке, но неотгруженных товарах за выбранный период.\n";
+                    result += "----------\n";
+                }
                 reader.Close();
             }
 
             richTextBoxReportClient.Text = result;
         }
-
+        
         private void buttonExport_Click(object sender, EventArgs e)
         {
 
+            /*
+             Функция, которая создаёт отчёт по выбранным клиентам, за выбранный период, для положенных к отгрузке но не отгруженных товаров
+             */
+
             DateTime reportFrom = dateTimePickerTextReportFrom.Value;
             DateTime reportTo = dateTimePickerTextReportTo.Value;
+            List<string> clientsNamesChecked = new List<string>();
+            for (int i = 0; i < checkedListBoxClient.CheckedItems.Count; i++)
+            {
+                clientsNamesChecked.Add(checkedListBoxClient.CheckedItems[i].ToString());
+            }
 
             System.Data.DataTable dtReport = new System.Data.DataTable();
             DataSet dsReport = new DataSet();
@@ -125,38 +144,45 @@ namespace WinFormProducts
             // Очистка DataTable
             dtReport.Clear();
 
-            // SQL запрос для получения данных о договорах и продуктах
-            string sql = @"
-            SELECT 
-                cl.client_name,
-                c.date_signed,
-                string_agg(p.product_name || ' - Количество: ' || cp.quantity::text || ' - Сумма за количество: ' || cp.total_price, ', ') AS product_details,
-                c.total_amount,
-                c.prepayment,
-                c.advance_payment,
-                c.payment_status
-            FROM 
-                Contracts c
-            JOIN 
-                Clients cl ON c.client_id = cl.client_id
-            JOIN 
-                Contract_Products cp ON c.contract_id = cp.contract_id
-            JOIN 
-                Products p ON cp.product_id = p.product_id
-            WHERE (c.date_signed BETWEEN :reportFrom AND :reportTo) AND (c.payment_status != 'не оплачено' AND c.shipment_status != 'отгружено')
-            GROUP BY 
-                cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.payment_status
-            ORDER BY 
-                cl.client_name;";
+            foreach (string clientName in clientsNamesChecked)
+            {
+                // SQL запрос для получения данных о договорах и продуктах для каждого выбранного клиента
+                string sql = @"
+                    SELECT 
+                        cl.client_name,
+                        c.date_signed,
+                        string_agg(p.product_name || ' - Количество: ' || cp.quantity::text || ' - Сумма за количество: ' || cp.total_price, ', ') AS product_details,
+                        c.total_amount,
+                        c.prepayment,
+                        c.advance_payment,
+                        c.payment_status
+                    FROM 
+                        Contracts c
+                    JOIN 
+                        Clients cl ON c.client_id = cl.client_id
+                    JOIN 
+                        Contract_Products cp ON c.contract_id = cp.contract_id
+                    JOIN 
+                        Products p ON cp.product_id = p.product_id
+                    WHERE 
+                        c.date_signed BETWEEN @reportFrom AND @reportTo 
+                        AND c.payment_status != 'не оплачено' 
+                        AND c.shipment_status != 'отгружено'
+                        AND cl.client_name = :clientName
+                    GROUP BY 
+                        cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.payment_status
+                    ORDER BY 
+                        cl.client_name";
 
-            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
-            command.Parameters.AddWithValue("reportFrom", reportFrom);
-            command.Parameters.AddWithValue("reportTo", reportTo);
+                NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+                command.Parameters.AddWithValue("reportFrom", reportFrom);
+                command.Parameters.AddWithValue("reportTo", reportTo);
+                command.Parameters.AddWithValue("clientName", clientName);
 
-            // Адаптер для заполнения DataSet
-            NpgsqlDataAdapter da = new NpgsqlDataAdapter(command);
-            dsReport.Reset();
-            da.Fill(dsReport);
+                // Адаптер для заполнения DataSet
+                NpgsqlDataAdapter da = new NpgsqlDataAdapter(command);
+                da.Fill(dsReport);
+            }
             dtReport = dsReport.Tables[0];
 
             // Создание объекта Excel
@@ -166,7 +192,7 @@ namespace WinFormProducts
             Worksheet ws = (Worksheet)wb.Worksheets[1];
 
             // Заголовки столбцов
-            List<string> headers = new List<string> { "Имя клиента", "Дата подписания", "Детали продуктов", "Общая сумма", "Предоплата", "Авансовый платеж", "Статус платежа" };
+            List<string> headers = new List<string> { "Имя клиента", "Дата подписания", "Детали продуктов", "Общая сумма", "Предоплата", "Внесённый платеж", "Статус платежа" };
             for (int i = 0; i < headers.Count; i++)
             {
                 ws.Cells[1, i + 1] = headers[i];

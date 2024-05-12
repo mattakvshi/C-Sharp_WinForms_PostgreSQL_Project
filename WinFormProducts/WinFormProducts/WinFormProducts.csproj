@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="8.0.2" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.9.2" />
   </ItemGroup>
 
   <ItemGroup>
