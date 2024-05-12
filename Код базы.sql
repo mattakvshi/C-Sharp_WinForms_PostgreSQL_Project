@@ -200,3 +200,28 @@ GROUP BY
 ORDER BY 
     c.contract_id;
 
+
+
+SELECT 
+    cl.client_name,
+    c.date_signed,
+    string_agg(p.product_name || ' - Количество: ' || cp.quantity::text || ' - Сумма за колличество: ' || cp.total_price, ', ') AS product_details,
+    c.total_amount,
+    c.prepayment,
+	c.advance_payment,
+    c.payment_status
+FROM 
+    Contracts c
+JOIN 
+    Clients cl ON c.client_id = cl.client_id
+JOIN 
+    Contract_Products cp ON c.contract_id = cp.contract_id
+JOIN 
+    Products p ON cp.product_id = p.product_id
+WHERE (c.date_signed BETWEEN '2024-01-01' AND '2024-05-31') AND (c.payment_status != 'не оплачено' AND c.shipment_status != 'отгружено')
+GROUP BY 
+	cl.client_name, c.date_signed, c.total_amount, c.prepayment, c.advance_payment, c.advance_payment, c.payment_status, c.shipment_status
+ORDER BY 
+    cl.client_name;
+
+

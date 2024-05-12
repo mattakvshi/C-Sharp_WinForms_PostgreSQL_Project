@@ -77,6 +77,7 @@
             ReportToolStripMenuItem.Name = "ReportToolStripMenuItem";
             ReportToolStripMenuItem.Size = new Size(172, 24);
             ReportToolStripMenuItem.Text = "Отчёт";
+            ReportToolStripMenuItem.Click += ReportToolStripMenuItem_Click;
             // 
             // MainForm
             // 

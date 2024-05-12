@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             buttonCancel = new Button();
-            buttonConfirm = new Button();
             textBoxAdvancedPayment = new TextBox();
             labelAdvancePayment = new Label();
             comboBoxClientName = new ComboBox();
@@ -39,6 +38,7 @@
             labelPaymentStatus = new Label();
             comboBoxSipmentStatus = new ComboBox();
             labelSipmentStatus = new Label();
+            buttonConfirm = new Button();
             SuspendLayout();
             // 
             // buttonCancel
@@ -55,21 +55,6 @@
             buttonCancel.Text = "Отмена";
             buttonCancel.UseVisualStyleBackColor = false;
             buttonCancel.Click += buttonCancel_Click;
-            // 
-            // buttonConfirm
-            // 
-            buttonConfirm.BackColor = SystemColors.Highlight;
-            buttonConfirm.FlatAppearance.BorderSize = 0;
-            buttonConfirm.FlatStyle = FlatStyle.Flat;
-            buttonConfirm.Font = new Font("Montserrat", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            buttonConfirm.ForeColor = SystemColors.ButtonFace;
-            buttonConfirm.Location = new Point(31, 325);
-            buttonConfirm.Name = "buttonConfirm";
-            buttonConfirm.Size = new Size(138, 34);
-            buttonConfirm.TabIndex = 22;
-            buttonConfirm.Text = "Подтвердить";
-            buttonConfirm.UseVisualStyleBackColor = false;
-            buttonConfirm.Click += buttonConfirm_Click;
             // 
             // textBoxAdvancedPayment
             // 
@@ -127,6 +112,7 @@
             // dateTimePicker
             // 
             dateTimePicker.CalendarFont = new Font("Montserrat", 12F);
+            dateTimePicker.CalendarForeColor = SystemColors.Desktop;
             dateTimePicker.CalendarMonthBackground = Color.Gainsboro;
             dateTimePicker.Font = new Font("Montserrat", 12F);
             dateTimePicker.Location = new Point(31, 108);
@@ -165,6 +151,21 @@
             labelSipmentStatus.TabIndex = 30;
             labelSipmentStatus.Text = "Статус отгрузки";
             // 
+            // buttonConfirm
+            // 
+            buttonConfirm.BackColor = SystemColors.Highlight;
+            buttonConfirm.FlatAppearance.BorderSize = 0;
+            buttonConfirm.FlatStyle = FlatStyle.Flat;
+            buttonConfirm.Font = new Font("Montserrat", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            buttonConfirm.ForeColor = SystemColors.ButtonFace;
+            buttonConfirm.Location = new Point(31, 325);
+            buttonConfirm.Name = "buttonConfirm";
+            buttonConfirm.Size = new Size(138, 34);
+            buttonConfirm.TabIndex = 22;
+            buttonConfirm.Text = "Подтвердить";
+            buttonConfirm.UseVisualStyleBackColor = false;
+            buttonConfirm.Click += buttonConfirm_Click;
+            // 
             // ContranctForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -192,7 +193,6 @@
         #endregion
 
         private Button buttonCancel;
-        private Button buttonConfirm;
         private TextBox textBoxAdvancedPayment;
         private Label labelAdvancePayment;
         private ComboBox comboBoxClientName;
@@ -202,5 +202,6 @@
         private Label labelPaymentStatus;
         private ComboBox comboBoxSipmentStatus;
         private Label labelSipmentStatus;
+        private Button buttonConfirm;
     }
 }

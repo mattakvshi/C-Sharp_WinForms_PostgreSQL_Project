@@ -9,6 +9,7 @@ namespace WinFormProducts
         public ClientsUC clientsUC;
         public ProductsUC productsUC;
         public ContractProductUC contractProductUC;
+        public ReportingUC reportingUC;
 
         //объект-соединение с бд
         public NpgsqlConnection conn;
@@ -70,6 +71,30 @@ namespace WinFormProducts
             this.Controls.Add(contractProductUC);
             CenterUserControl(contractProductUC);
             contractProductUC.Visible = false;
+
+            /*
+             Для панели с отчётностью нужно заранее загрузить и передать все нужные данные, потому что
+             эта панель фактически является формой (при её создании сразу нужно отображать данные)
+             */
+            List<String> clientsNames = new List<String>();
+            string sql = @"
+            SELECT client_name 
+            FROM Clients";
+            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+            NpgsqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string clientName = reader.GetString(0);
+                clientsNames.Add(clientName);
+            }
+            reader.Close();
+            string[] clientsNamesArr = clientsNames.ToArray();
+
+
+            reportingUC = new ReportingUC(conn, clientsNamesArr);
+            this.Controls.Add(reportingUC);
+            CenterUserControl(reportingUC);
+            reportingUC.Visible = false;
         }
 
         private void UsersToolStripMenuItem_Click(object sender, EventArgs e)
@@ -81,6 +106,7 @@ namespace WinFormProducts
             clientsUC.Visible = true;
             productsUC.Visible = false;
             contractProductUC.Visible = false;
+            reportingUC.Visible = false;
         }
 
         private void ProductsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -92,6 +118,7 @@ namespace WinFormProducts
             clientsUC.Visible = false;
             productsUC.Visible = true;
             contractProductUC.Visible = false;
+            reportingUC.Visible = false;
         }
 
         private void ContractToolStripMenuItem_Click(object sender, EventArgs e)
@@ -103,6 +130,39 @@ namespace WinFormProducts
             clientsUC.Visible = false;
             productsUC.Visible = false;
             contractProductUC.Visible = true;
+            reportingUC.Visible = false;
+        }
+
+        private void ReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*
+             Метод, который переинициализирует панель при повторном открытии, так как могут появиться
+             новые данные, которые нужно будет заного получить и передать
+             */
+
+            List<String> clientsNames = new List<String>();
+            string sql = @"
+            SELECT client_name 
+            FROM Clients";
+            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
+            NpgsqlDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                string clientName = reader.GetString(0);
+                clientsNames.Add(clientName);
+            }
+            reader.Close();
+            string[] clientsNamesArr = clientsNames.ToArray();
+
+
+            reportingUC = new ReportingUC(conn, clientsNamesArr);
+            this.Controls.Add(reportingUC);
+            CenterUserControl(reportingUC);
+
+            clientsUC.Visible = false;
+            productsUC.Visible = false;
+            contractProductUC.Visible = false;
+            reportingUC.Visible = true;
         }
     }
 }

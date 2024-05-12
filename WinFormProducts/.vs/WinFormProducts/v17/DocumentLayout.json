@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\reportinguc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\reportinguc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\contractproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\winformproducts\\contractproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\winformproducts\\contranctform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contranctform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\winformproducts\\contranctform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contranctform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\contractproductuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|d:\\\u043A\u0443\u0431\u0438\u043A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0440\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0438\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\myc#individualwork\\winformproducts\\winformproducts\\reportinguc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{261C2D52-BDAD-403D-A902-C84C0D88530A}|WinFormProducts\\WinFormProducts.csproj|solutionrelative:winformproducts\\reportinguc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContractProducts.cs [Design]",
-              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProducts.cs",
-              "RelativeDocumentMoniker": "WinFormProducts\\ContractProducts.cs",
-              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProducts.cs [Design]",
-              "RelativeToolTip": "WinFormProducts\\ContractProducts.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "ReportingUC.cs",
+              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ReportingUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ReportingUC.cs",
+              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ReportingUC.cs",
+              "RelativeToolTip": "WinFormProducts\\ReportingUC.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAEwJkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T13:18:11.359Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContractProducts.cs",
-              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProducts.cs",
-              "RelativeDocumentMoniker": "WinFormProducts\\ContractProducts.cs",
-              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProducts.cs",
-              "RelativeToolTip": "WinFormProducts\\ContractProducts.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T13:25:54.541Z",
+              "WhenOpened": "2024-05-12T06:54:25.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ContranctForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContranctForm.cs",
-              "RelativeDocumentMoniker": "WinFormProducts\\ContranctForm.cs",
-              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContranctForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "WinFormProducts\\ContranctForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T11:21:15.811Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContranctForm.cs",
-              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContranctForm.cs",
-              "RelativeDocumentMoniker": "WinFormProducts\\ContranctForm.cs",
-              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContranctForm.cs",
-              "RelativeToolTip": "WinFormProducts\\ContranctForm.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAADoAAABKAAAA",
+              "Title": "ReportingUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ReportingUC.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\ReportingUC.cs",
+              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ReportingUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\ReportingUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T09:50:55.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
-              "RelativeDocumentMoniker": "WinFormProducts\\ContractProductUC.cs",
-              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "WinFormProducts\\ContractProductUC.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T16:17:47.316Z",
+              "WhenOpened": "2024-05-12T06:37:35.278Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\MainForm.cs",
+              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeToolTip": "WinFormProducts\\MainForm.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAmwKMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:54:44.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormProducts\\MainForm.cs",
+              "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "WinFormProducts\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T06:58:45.179Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ContractProductUC.cs",
               "DocumentMoniker": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
               "RelativeDocumentMoniker": "WinFormProducts\\ContractProductUC.cs",
               "ToolTip": "D:\\\u041A\u0423\u0411\u0418\u041A\\3 \u043A\u0443\u0440\u0441 6 \u0441\u0435\u043C\u0430\u043A\\\u0420\u0430\u0437\u0440\u0430\u0431\u043E\u0442\u043A\u0430 \u0432 \u0438\u043D\u0442\u0435\u0433\u0440\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0430\u0445\\\u0418\u0442\u043E\u0433\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442\\MyC#IndividualWork\\WinFormProducts\\WinFormProducts\\ContractProductUC.cs",
               "RelativeToolTip": "WinFormProducts\\ContractProductUC.cs",
-              "ViewState": "AQIAAFoBAAAAAAAAAAAYwG4BAABAAAAA",
+              "ViewState": "AQIAAIwBAAAAAAAAAAAQwLUBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:13:04.61Z",
+              "WhenOpened": "2024-05-12T08:14:07.306Z",
               "EditorCaption": ""
             }
           ]
