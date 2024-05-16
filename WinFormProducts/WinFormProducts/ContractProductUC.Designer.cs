@@ -143,6 +143,8 @@
             dataGridViewContract.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dataGridViewContract.Size = new Size(1014, 256);
             dataGridViewContract.TabIndex = 13;
+            dataGridViewContract.CellClick += clickRow;
+            dataGridViewContract.CellContentClick += clickRow;
             // 
             // label2
             // 

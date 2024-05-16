@@ -88,8 +88,9 @@ namespace WinFormProducts
 
             dtContractProduct.Clear();
             string sqlBillOfLanding = @"
-            SELECT * 
-            FROM Contract_Products";
+            SELECT cp.contract_product_id, cp.contract_id, cp.product_id, p.product_name, cp.quantity, cp.total_price
+            FROM Contract_Products cp
+            JOIN Products p ON cp.product_id = p.product_id";
             NpgsqlDataAdapter daBillOfLanding = new NpgsqlDataAdapter(sqlBillOfLanding, conn);
             dsContractProduct.Reset();
             daBillOfLanding.Fill(dsContractProduct);
@@ -440,6 +441,34 @@ namespace WinFormProducts
             // Обновление интерфейса
             UpdateContract();
             UpdateContractProduct();
+        }
+
+        private void clickRow(object sender, DataGridViewCellEventArgs e)
+        {
+
+            /*
+             Функция, которая отображает товары для выбранного контракта
+             */
+
+            int contractId = (int)dataGridViewContract.CurrentRow.Cells["contract_id"].Value;
+            dtContractProduct.Clear();
+            string sql = @"
+            SELECT * 
+            FROM  Contract_Products
+            WHERE contract_id = " + contractId;
+            NpgsqlDataAdapter dtAlterContractProduct = new NpgsqlDataAdapter(sql, conn);
+            dsContractProduct.Reset();
+            dtAlterContractProduct.Fill(dsContractProduct);
+            dtContractProduct = dsContractProduct.Tables[0];
+            dataGridViewContractProduct.DataSource = null;
+            dataGridViewContractProduct.DataSource = dtContractProduct;
+            dataGridViewContractProduct.Columns[0].HeaderText = "Код записи";
+            dataGridViewContractProduct.Columns[1].HeaderText = "Код договора";
+            dataGridViewContractProduct.Columns[2].HeaderText = "Код продукта";
+            dataGridViewContractProduct.Columns[3].HeaderText = "Количество";
+            dataGridViewContractProduct.Columns[4].HeaderText = "К оплате за товар";
+            dataGridViewContractProduct.Sort(dataGridViewContractProduct.Columns["contract_product_id"], ListSortDirection.Ascending);
+            dataGridViewContractProduct.Refresh();
         }
     }
 }
